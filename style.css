@@ -1,0 +1,232 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	width: 100%;	height: 45px;
+	background-color: #30393a;
+	position: relative;
+	text-align: center;
+}
+.nav .nav1{
+	width: 85%; height: 45px;
+	position: absolute;
+	text-align: center;
+}
+.nav a{
+		text-decoration: none;
+		color: white;
+		padding: 0 30px;
+		font: 20px/45px 微软雅黑；
+	}
+.nav a:hover{
+		color: black;
+	}
+#search{
+	border: 0;	outline: none;
+	width: 180px;	height: 31px;
+	border-radius: 5px;		border: 3px solid #ccc;
+	position: absolute;	right: 80px; top: 3px;
+	text-indent: 1em;
+	background:rgba(0,0,0,0);
+	}
+#search:focus{
+	color: white;
+}
+#search1{
+	width: 45px;	height: 28px;
+	color: white;
+	background: #30393a;	
+	border-radius: 5px;		border: 3px solid #ccc;
+	position: absolute;	right:30px;  top: 8px;
+}
+
+.index{
+	width: 100%;
+	height: 60px;
+	/*border: 1px solid black;*/
+	margin: 0px auto;
+	text-align: center;
+	line-height: 60px;
+}
+.index a{
+	text-decoration: none;
+	padding: 15px 15px;
+	color: #f74f4f;
+	font: 20px 微软雅黑；
+}
+.index a:hover{
+	color: black;
+	/*background-color: #5466a4;*/
+}
+
+.Bnews{
+	width: 100%;
+	height: 470px;
+	background-color: #293352;
+	margin: 5px auto;
+	position: relative;
+}
+.Bnews .Bnews1{
+	width: 47%; 	height: 430px;
+	background-color: #232b46;
+	float: left;
+	position: absolute; left: 20px; top: 20px;
+	overflow: hidden;
+}
+.Bnews .Bnews1 iframe{
+	border: none;
+}
+.Bnews .Bnews1 img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.Bnews .Bnews2{
+	width: 47%; 
+	float: left;	margin: 0 auto;
+	position: absolute; right: 20px;
+	z-index: 2;
+}
+.Bnews .Bnews3{
+	width: 47%; 	height: 430px;
+	background-color: #232b46;
+	position: absolute; right: 20px; top: 20px;
+	text-align: center;
+	float: left;
+}
+
+.Bnews3 ul{
+	width: 70%; height: 300px;
+	position: absolute; left: 40px; top: 120px;
+	list-style-type: none;
+}
+ul li{
+	border-bottom: 1px solid #aaa;
+}
+
+
+.Bnews .Bnews3 a{
+	color: white;
+	font: 20px/50px 微软雅黑;
+	text-decoration: none;
+}
+.Bnews .Bnews3 a:hover{
+	color: black;
+}
+.Bnews .Bnews3 a:focus{
+	color: yellow;
+}
+
+.con{
+	width: 90%;		height: 400px;
+	margin: 10px auto;
+	text-align: center;
+	/*background-color: red;*/
+}
+
+.con1, .con2, .con3{
+	width: 33%;	height: 300px;
+	/*background-color: green;*/
+	float: left;
+	margin-left: 3px;
+}
+.con img{
+	width: 100%; height: 250px;
+}
+.con p{
+	font: 20px/40px 微软雅黑;
+}
+.con a{
+	font-size: 20px;
+	color: #f74f4f; 
+	text-decoration: none;
+}
+.con a:hover{
+	color: black;
+}
+
+
+
+
+.bot{
+	width: 100%;	height: 500px;
+	background-color:  #293352;
+	margin: 30px auto;
+	position: relative;
+}
+.bot .bot0{
+	 width: 100%;	height: 100px;
+	 font: 25px/50px 微软雅黑;
+	 color: white;
+	 text-align: center;
+	 position: absolute;
+	 top: 30px;
+}
+.bot .bot00{
+	width: 94%;		height:300px;
+	position: absolute;
+	left: 3%;	top: 100px;
+}
+
+.bot000{
+	width: 23%;
+	height: 340px;
+	background-color: white;
+	margin-left: 15px;
+	float: left;
+}
+.bot1, .bot2, .bot3, .bot4{
+	margin: 0 auto;
+	width: 80%;	
+}
+
+.bot a{
+	text-decoration: none;	color: black;	
+	display: block;	width: 90%;	
+	margin: 18px auto;
+	font: 18px/28px 微软雅黑;
+}
+
+.bot a:hover{
+	text-decoration: underline;
+}
+
+
+.bot img{
+	width: 100%;	height: 200px;
+}
+.bot span{
+	height: 35px;
+	display: block;	text-align: center;
+	line-height: 35px;
+	border-bottom: 1px solid #999;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+.footer{
+	width: 100%;	height: 140px;
+	background-color: #30393a;
+	position: relative;
+}
+
+.footer span{
+	color: #ddd;
+	font: 16px/20px 微软雅黑;
+	position: absolute;
+	left: 50px; top: 10px;
+}
+.footer .foot{
+	position: absolute;
+	right: 200px;	top: 70px;
+}
+.footer .foot img{
+	float: left;
+	margin: auto 30px;
+}
